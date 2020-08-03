@@ -39,3 +39,30 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+.navbar-link {
+  color: white; }
+
+.navbar-mobile {
+  background-color: #1b1b1e;
+  list-style: none;
+  position: fixed;
+  padding: 0;
+  width: 100vw;
+  height: 5rem;
+  bottom: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .navbar-mobile .navbar-item {
+    width: 100%;
+    text-align: center; }

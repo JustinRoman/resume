@@ -1,9 +1,7 @@
 .navbar {
-    background-color: $shark;
 
     &-nav {
-        list-style: none;
-        @include flexbox();
+        
     }
 
     &-item {
@@ -12,5 +10,22 @@
 
     &-link {
         color: white;
+    }
+}
+
+.navbar-mobile {
+    background-color: $shark--dark;
+    list-style: none;
+    position: fixed;
+    padding: 0;
+    width: 100vw;
+    height: 5rem;
+    bottom: 0;
+    @include flexbox();
+    @include flex-direction(row);
+
+    & .navbar-item {
+        width: 100%;
+        text-align: center;
     }
 }
