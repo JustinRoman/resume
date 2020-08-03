@@ -1,13 +1,15 @@
-@import 'partials/flexbox';
+// Base
+@import 'base/reset';
+@import 'base/typography';
 
-body {
-    margin: 0;
-    padding: 0;
-}
+// Utils
+@import 'utils/flexbox_mixins';
+@import 'utils/variables';
 
-.navbar {
-    &-nav {
-        list-style: none;
-        @include flexbox();
-    }
-}
+// Components
+@import 'components/buttons';
+
+// Layout
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
