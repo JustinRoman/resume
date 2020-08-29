@@ -40,11 +40,60 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.btn-primary {
+  background-color: #59bbe9;
+  padding: 12px 40px;
+  border-radius: 5px;
+  border: none;
+  color: #e4e6eb;
+  font-size: 15px;
+  font-weight: bolder; }
+
+.header {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: vertical;
+  -moz-box-direction: reverse;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .header-title {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 10px; }
+  .header-subtitle {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; }
+  .header-contact {
+    display: block;
+    margin: 0 auto; }
+  .header-avatar {
+    border-radius: 50%;
+    width: 250px;
+    border: 25px solid #d7f3ff;
+    margin-bottom: 20px; }
+
+.navbar-nav {
+  display: none; }
+
 .navbar-link {
-  color: white; }
+  text-decoration: none;
+  color: #403f57; }
 
 .navbar-mobile {
-  background-color: #1b1b1e;
+  background-color: #e4e6eb;
   list-style: none;
   position: fixed;
   padding: 0;
@@ -66,3 +115,6 @@ table {
   .navbar-mobile .navbar-item {
     width: 100%;
     text-align: center; }
+
+body {
+  font-family: 'Lato', sans-serif; }

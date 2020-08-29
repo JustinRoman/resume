@@ -3,6 +3,7 @@
 @import 'base/typography';
 
 // Utils
+@import 'utils/box_sizing_mixin';
 @import 'utils/flexbox_mixins';
 @import 'utils/variables';
 
@@ -13,3 +14,7 @@
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
+
+body {
+    font-family: 'Lato', sans-serif;
+}

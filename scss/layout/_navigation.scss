@@ -1,7 +1,6 @@
 .navbar {
-
     &-nav {
-        
+        display: none;
     }
 
     &-item {
@@ -9,23 +8,24 @@
     }
 
     &-link {
-        color: white;
+        text-decoration: none;
+        color: $gun-powder;
     }
-}
 
-.navbar-mobile {
-    background-color: $shark--dark;
-    list-style: none;
-    position: fixed;
-    padding: 0;
-    width: 100vw;
-    height: 5rem;
-    bottom: 0;
-    @include flexbox();
-    @include flex-direction(row);
-
-    & .navbar-item {
-        width: 100%;
-        text-align: center;
+    &-mobile {
+        background-color: $athens-gray;
+        list-style: none;
+        position: fixed;
+        padding: 0;
+        width: 100vw;
+        height: 5rem;
+        bottom: 0;
+        @include flexbox();
+        @include flex-direction(row);
+    
+        & .navbar-item {
+            width: 100%;
+            text-align: center;
+        }
     }
 }
