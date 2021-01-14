@@ -9,12 +9,21 @@
 
 // Components
 @import 'components/buttons';
+@import 'components/titles';
 
 // Layout
 @import 'layout/footer';
 @import 'layout/header';
+@import 'layout/about-me';
+@import 'layout/sections';
 @import 'layout/navigation';
 
+// Pages
+@import 'pages/home.scss';
+@import 'layout/about-me';
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: $gun-powder;
+
 }

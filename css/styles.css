@@ -49,10 +49,22 @@ table {
   font-size: 15px;
   font-weight: bolder; }
 
-.header {
+h1.title {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 10px; }
+
+h2.title {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 10px; }
+
+h2.subtitle {
+  display: block;
   width: 100%;
-  padding: 20px;
-  text-align: center;
+  margin-bottom: 20px; }
+
+.header {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -68,14 +80,8 @@ table {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  .header-title {
-    font-weight: bolder;
-    font-size: 35px;
-    margin-bottom: 10px; }
-  .header-subtitle {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px; }
+  .header-details__wrapper {
+    padding: 0 25px; }
   .header-contact {
     display: block;
     margin: 0 auto; }
@@ -84,6 +90,14 @@ table {
     width: 250px;
     border: 25px solid #d7f3ff;
     margin-bottom: 20px; }
+
+.section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .navbar-nav {
   display: none; }
@@ -117,4 +131,5 @@ table {
     text-align: center; }
 
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  color: #403f57; }
