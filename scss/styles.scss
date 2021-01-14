@@ -5,6 +5,7 @@
 // Utils
 @import 'utils/box_sizing_mixin';
 @import 'utils/flexbox_mixins';
+@import 'utils/colors';
 @import 'utils/variables';
 
 // Components
@@ -14,16 +15,14 @@
 // Layout
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/about-me';
+@import 'layout/about';
 @import 'layout/sections';
 @import 'layout/navigation';
 
 // Pages
 @import 'pages/home.scss';
-@import 'layout/about-me';
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: $gun-powder;
-
+    color: $text-color-primary;
 }

@@ -1,16 +1,8 @@
 .header {
+    height: 100vh;
     @include flexbox();
     @include flex-direction(column-reverse);
     @include box-sizing(border-box);
-
-    &-details__wrapper {
-        padding: 0 25px;
-    }
-    
-    &-contact {
-        display: block;
-        margin: 0 auto;
-    }
 
     &-avatar {
         border-radius: 50%;
